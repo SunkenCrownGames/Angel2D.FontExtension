@@ -1,8 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace BracketHouse.FontExtension
-{
 	internal class FieldGlyph
 	{
 		[ContentSerializer] private readonly char CharacterBackend;
@@ -75,4 +73,3 @@ namespace BracketHouse.FontExtension
 		/// </summary>
 		public float AtlasBottom => this.AtlasBottomBackend;
 	}
-}

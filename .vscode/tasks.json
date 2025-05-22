@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "-maxcpucount",
+        "${workspaceFolder}/Angel2D.FontExtension.csproj"
+      ],
+      "options": {
+        "env": {
+          "SDL_VIDEODRIVER": "wayland",
+          "SDL_VIDEO_WAYLAND_WMCLASS": "MonoGameApp"
+        }
+      },
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content.Pipeline;
 
-namespace BracketHouse.FontExtension
-{
 
 	[ContentProcessor(DisplayName = "Field Font Processor")]
 	internal class FieldFontProcessor : ContentProcessor<FontDescription, FieldFont>
@@ -80,4 +78,3 @@ namespace BracketHouse.FontExtension
 			return (outputPath, jsonPath);
 		}
 	}
-}

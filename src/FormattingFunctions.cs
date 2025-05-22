@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace BracketHouse.FontExtension
-{
 	internal static class FormattingFunctions
 	{
 		internal static readonly Dictionary<string, (byte red, byte green, byte blue)> ColorNames
@@ -361,4 +359,3 @@ namespace BracketHouse.FontExtension
 			return new Color(C, 0, X, baseColor.A);
 		}
 	}
-}

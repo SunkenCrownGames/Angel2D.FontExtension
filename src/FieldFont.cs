@@ -6,8 +6,7 @@ using System.Text.Json;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace BracketHouse.FontExtension
-{
+
 	/// <summary>
 	/// A font for use with TextRenderer.
 	/// </summary>
@@ -299,4 +298,3 @@ namespace BracketHouse.FontExtension
 			return editedText;
 		}
 	}
-}

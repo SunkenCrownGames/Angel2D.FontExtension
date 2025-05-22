@@ -8,8 +8,6 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.Framework.Utilities;
 
-namespace BracketHouse.FontExtension
-{
 	/// <summary>
 	/// Uses multi-channel signed distance fields to draw some nice looking text.
 	/// </summary>
@@ -726,4 +724,3 @@ namespace BracketHouse.FontExtension
 			}
 		}
 	}
-}

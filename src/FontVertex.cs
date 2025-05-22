@@ -5,8 +5,6 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace BracketHouse.FontExtension
-{
 	/// <summary>
 	/// Vertex type with position, texture coordinate and two colors.
 	/// </summary>
@@ -58,4 +56,3 @@ namespace BracketHouse.FontExtension
 			VertexDeclaration = new VertexDeclaration(elements);
 		}
 	}
-}

@@ -5,8 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using Microsoft.Xna.Framework.Content.Pipeline;
 
-namespace BracketHouse.FontExtension
-{
+
 	[ContentImporter(".bhfont", DisplayName = "Field Font Importer", DefaultProcessor = "FieldFontProcessor")]
 	internal class FieldFontImporter : ContentImporter<FontDescription>
 	{
@@ -67,5 +66,3 @@ namespace BracketHouse.FontExtension
 			}
 		}
 	}
-
-}

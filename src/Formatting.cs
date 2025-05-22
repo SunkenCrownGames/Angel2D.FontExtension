@@ -4,8 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BracketHouse.FontExtension
-{
+
 
 	/// <summary>
 	/// Keeps track of formatting tags. Use <c>RegisterTag</c> and the delegates to add your own tags.
@@ -365,4 +364,3 @@ namespace BracketHouse.FontExtension
 			return (null, TagType.Unknown, tagArgs, 0);
 		}
 	}
-}
